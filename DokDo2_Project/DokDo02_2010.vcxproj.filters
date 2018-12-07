@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{a21b195e-eb90-4d11-8f0e-17af31712411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\cImageManager">
+      <UniqueIdentifier>{0c4f3fe9-f51b-40a1-a2f7-f83fccc18033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\singleton">
+      <UniqueIdentifier>{891b33bf-0d02-4351-95d9-0981cd4d9462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyLib">
+      <UniqueIdentifier>{ded98b45-9b01-47d2-81df-1f4e4f3da873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{2f2923f7-0146-4222-ab29-9c0fec13d7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicClass">
+      <UniqueIdentifier>{fbe18868-f02f-4495-9388-557106cc35f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BasicClass\cObject">
+      <UniqueIdentifier>{73c38c91-3b27-4f76-928c-16ac2b40a3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{7220947a-8f9e-4e60-8c4a-e7cd0ef7470e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\cScene">
+      <UniqueIdentifier>{71d26c76-88ac-4699-95e3-48e02d017007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\cSceneManager">
+      <UniqueIdentifier>{151a59da-c8f6-40f1-82fe-9d96d51d0236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Info">
+      <UniqueIdentifier>{035f6cbd-4415-4a85-b722-04a876093492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Info\cObjectInfo">
+      <UniqueIdentifier>{8792daed-c3f8-476b-b1ac-a76f34be26f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Info\cAnimationInfo">
+      <UniqueIdentifier>{d45aec83-584c-43b3-9163-4365475fbee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{155e85df-55dd-491a-80a8-42c5012e2d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\cGameObject">
+      <UniqueIdentifier>{5ecad6df-0dc3-42bc-b0ce-a14ea44d752d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\cObjectManager">
+      <UniqueIdentifier>{4ffad0a0-2f86-4c5e-be79-7a1ead22257e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui">
+      <UniqueIdentifier>{04acda23-2d17-4605-89af-e1ee26829d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\cLoadingScene">
+      <UniqueIdentifier>{8ef3dee6-a3e3-4998-ac99-a78662a770ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\cIntroScene">
+      <UniqueIdentifier>{9e17fda5-5df0-45ad-bf79-5b6613814ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Screen">
+      <UniqueIdentifier>{4e7856ed-9074-4a4e-9a33-d4a610758729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Screen\cScreen">
+      <UniqueIdentifier>{e810cdd1-a47f-465d-a6f4-3a988dfdcf12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\cCutScene">
+      <UniqueIdentifier>{b3fc19f9-106a-4af7-b24f-90c3a07b2096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\cStage01">
+      <UniqueIdentifier>{974fd0fb-82a7-4716-b803-fb11b0d72861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\cInterfaceManager">
+      <UniqueIdentifier>{ff5c9786-a0a1-4a23-850d-fd5c8ff30fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map">
+      <UniqueIdentifier>{d1049720-76ad-4d14-b9a6-b256e4bde73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map\cMap">
+      <UniqueIdentifier>{58be4e28-39ce-4fd6-984e-3dab592cb269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map\cFirstMap">
+      <UniqueIdentifier>{406d078f-540e-4664-b023-85582702c172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map\cFirstCloud">
+      <UniqueIdentifier>{b07919e3-c7c2-42eb-be84-9533a0dc16ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Map\cSecondMap">
+      <UniqueIdentifier>{84ee0b9a-c408-4ef9-9e01-190d398f7e54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\GameUi">
+      <UniqueIdentifier>{5de07663-ad3d-4ba2-85bd-616539ca6bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\GameUi\cUi">
+      <UniqueIdentifier>{9ac302f5-67bb-479e-bb83-d979b013ee23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\GameUi\cInterfaceUi">
+      <UniqueIdentifier>{ea019d6f-007a-4b2b-b3ef-36db6600e284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\cTextManager">
+      <UniqueIdentifier>{2271a057-2972-4fc7-8533-b84850a353fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\cGameManager">
+      <UniqueIdentifier>{6bb8b96a-a1d5-4480-a50d-1f9061f1ea79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Button">
+      <UniqueIdentifier>{7666e110-77ed-416f-b6b1-b8e2f130dd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Button\cButton">
+      <UniqueIdentifier>{80031be3-3d83-4c42-9c37-d69160504d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Button\cDevloperButton">
+      <UniqueIdentifier>{dd31493f-77b7-4908-94c4-8ef0c2f2aedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Button\cExitButton">
+      <UniqueIdentifier>{3a2813a1-c499-4416-8113-40af07b4609a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Button\cManualButton">
+      <UniqueIdentifier>{330faeee-3a4c-4155-a3e6-48e65204814f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Button\cRankingButton">
+      <UniqueIdentifier>{1fea805d-e242-4c28-8546-87803aa620bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Button\cStartButton">
+      <UniqueIdentifier>{bb00bbbe-a9d2-46bf-a0bd-1a63946197ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Button\cStoryButton">
+      <UniqueIdentifier>{a10cd0e0-0d79-4b5c-a6f3-38c466112ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\Button\XButton">
+      <UniqueIdentifier>{6cef089b-bb5a-4b3b-84a9-3d90d022926b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\GameUi\cIngameMission">
+      <UniqueIdentifier>{94a66033-ba2d-42d4-a75b-7089222846fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player">
+      <UniqueIdentifier>{c506f6f4-9f92-4ca4-9ed8-24731e829b87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player\cPlayer">
+      <UniqueIdentifier>{72a77278-58f1-442a-9ba9-073a85698895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Player\cPlayerShip">
+      <UniqueIdentifier>{ab08c832-212c-4545-bf06-e52662e58791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet">
+      <UniqueIdentifier>{838a1fa0-bfd9-4342-b310-1e52b9a9d0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\cBullet">
+      <UniqueIdentifier>{d3c7248c-7da9-4229-8b28-e5ea1496f9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\GameUi\cCursor">
+      <UniqueIdentifier>{787b4033-0ed9-48a7-9978-a60c7abc8c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\cShipMissile">
+      <UniqueIdentifier>{ab4bcd64-b23a-4b3e-bcf1-1654c17ae262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui\GameUi\cGameStart">
+      <UniqueIdentifier>{bb6adae0-3e9e-4ad4-96ca-8b8705bd1360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy">
+      <UniqueIdentifier>{f1ccbfc5-baee-4c7e-922c-9d4d29d38e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\cEnemy">
+      <UniqueIdentifier>{43bfcd5b-4d45-4006-aa82-078599c612e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\cEnemyAdmin">
+      <UniqueIdentifier>{2748cb2b-72da-4fe4-95ea-2dcfdd8a0950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\cExplosions">
+      <UniqueIdentifier>{e731eac6-ea1c-4790-8bd1-34f49f7acec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\EnemyBullet">
+      <UniqueIdentifier>{c8b80ace-d54c-4be6-8479-896f88cfa723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\EnemyBullet\cEnemyBullet">
+      <UniqueIdentifier>{f5ef453e-5a5e-4e55-a18c-34a94f9efd83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\cBuleltLib">
+      <UniqueIdentifier>{08a2ad0d-4cb7-41b5-b0b9-8e9b8dac2939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Ship">
+      <UniqueIdentifier>{66664f34-9516-43e4-bae8-3ea247ede652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\AirPlane">
+      <UniqueIdentifier>{395a3937-1c7a-4be7-87c9-42127f3972d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\cInputManager">
+      <UniqueIdentifier>{a6c417f0-d8bf-4962-905f-2be82ef06093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Ship\cEnemyShip">
+      <UniqueIdentifier>{fd101446-dc2b-4e00-8762-1e110d5df9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Ship\cEnemyShip1">
+      <UniqueIdentifier>{6bd28277-b950-4692-888f-9836a9b5a5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\AirPlane\cEnemyPlane">
+      <UniqueIdentifier>{3ebfc9af-a1cd-445f-8e34-30331516e62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\AirPlane\cEnemyPlane01">
+      <UniqueIdentifier>{993edf28-dbd6-4063-b24c-747c3be15d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\AirPlane\cEnemyPlane03">
+      <UniqueIdentifier>{f2a239d7-e975-4f4e-842a-bd7b3567b997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\AirPlane\cStage01Middle">
+      <UniqueIdentifier>{6d22f601-b893-4141-9696-46988bd758bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Bullet\EnemyBullet\cSplitBullet">
+      <UniqueIdentifier>{2222dc1f-b1c9-453f-a0d1-8f5712df3600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Ship\cEnemyShip02">
+      <UniqueIdentifier>{965804d2-ac73-44c0-9183-387987f6e6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Enemy\Ship\cYamato">
+      <UniqueIdentifier>{b2cbfa42-c6f2-4abf-aa94-bb5fd77aca6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DokDo02.cpp" />
+    <ClCompile Include="cImageManager.cpp">
+      <Filter>Manager\cImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLib.cpp">
+      <Filter>MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>BasicClass\cObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>Scene\cScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>Manager\cSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectInfo.cpp">
+      <Filter>Info\cObjectInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimationInfo.cpp">
+      <Filter>Info\cAnimationInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameObject.cpp">
+      <Filter>Object\cGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectManager.cpp">
+      <Filter>Manager\cObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>Object\Player\cPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="cLoadingScene.cpp">
+      <Filter>Scene\cLoadingScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cIntroScene.cpp">
+      <Filter>Scene\cIntroScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cButton.cpp">
+      <Filter>Ui\Button\cButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cManualButton.cpp">
+      <Filter>Ui\Button\cManualButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cRankingButton.cpp">
+      <Filter>Ui\Button\cRankingButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cStoryButton.cpp">
+      <Filter>Ui\Button\cStoryButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cDevloperButton.cpp">
+      <Filter>Ui\Button\cDevloperButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cExitButton.cpp">
+      <Filter>Ui\Button\cExitButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cStartButton.cpp">
+      <Filter>Ui\Button\cStartButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cScreen.cpp">
+      <Filter>Ui\Screen\cScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="cXButton.cpp">
+      <Filter>Ui\Button\XButton</Filter>
+    </ClCompile>
+    <ClCompile Include="cInterfaceManager.cpp">
+      <Filter>Manager\cInterfaceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cCutScene.cpp">
+      <Filter>Scene\cCutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage01.cpp">
+      <Filter>Scene\cStage01</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>Object\Map\cMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cFirstMap.cpp">
+      <Filter>Object\Map\cFirstMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cFirstCloud.cpp">
+      <Filter>Object\Map\cFirstCloud</Filter>
+    </ClCompile>
+    <ClCompile Include="cSecondMap.cpp">
+      <Filter>Object\Map\cSecondMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cUi.cpp">
+      <Filter>Ui\GameUi\cUi</Filter>
+    </ClCompile>
+    <ClCompile Include="cInterfaceUi.cpp">
+      <Filter>Ui\GameUi\cInterfaceUi</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextManager.cpp">
+      <Filter>Manager\cTextManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cIngameMission.cpp">
+      <Filter>Ui\GameUi\cIngameMission</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameManager.cpp">
+      <Filter>Manager\cGameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayerShip.cpp">
+      <Filter>Object\Player\cPlayerShip</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet.cpp">
+      <Filter>Object\Bullet\cBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cCursor.cpp">
+      <Filter>Ui\GameUi\cCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="cShipMissile.cpp">
+      <Filter>Object\Bullet\cShipMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameStart.cpp">
+      <Filter>Ui\GameUi\cGameStart</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemy.cpp">
+      <Filter>Object\Enemy\cEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyAdmin.cpp">
+      <Filter>Object\Enemy\cEnemyAdmin</Filter>
+    </ClCompile>
+    <ClCompile Include="cExplosions.cpp">
+      <Filter>Object\cExplosions</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyBullet.cpp">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cBulletLib.cpp">
+      <Filter>Object\Bullet\cBuleltLib</Filter>
+    </ClCompile>
+    <ClCompile Include="cInputManager.cpp">
+      <Filter>Manager\cInputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyShip.cpp">
+      <Filter>Object\Enemy\Ship\cEnemyShip</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyShip1.cpp">
+      <Filter>Object\Enemy\Ship\cEnemyShip1</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyPlane.cpp">
+      <Filter>Object\Enemy\AirPlane\cEnemyPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyPlane01.cpp">
+      <Filter>Object\Enemy\AirPlane\cEnemyPlane01</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyPlane03.cpp">
+      <Filter>Object\Enemy\AirPlane\cEnemyPlane03</Filter>
+    </ClCompile>
+    <ClCompile Include="cStage01Middle.cpp">
+      <Filter>Object\Enemy\AirPlane\cStage01Middle</Filter>
+    </ClCompile>
+    <ClCompile Include="cSplitBullet.cpp">
+      <Filter>Object\Bullet\EnemyBullet\cSplitBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnemyShip2.cpp">
+      <Filter>Object\Enemy\Ship\cEnemyShip02</Filter>
+    </ClCompile>
+    <ClCompile Include="cYamato.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stdafx.h" />
+    <ClInclude Include="singleton.h">
+      <Filter>Manager\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="cImageManager.h">
+      <Filter>Manager\cImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLib.h">
+      <Filter>MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>BasicClass\cObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>Scene\cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>Manager\cSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectInfo.h">
+      <Filter>Info\cObjectInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimationInfo.h">
+      <Filter>Info\cAnimationInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameObject.h">
+      <Filter>Object\cGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectManager.h">
+      <Filter>Manager\cObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>Object\Player\cPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="cLoadingScene.h">
+      <Filter>Scene\cLoadingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cIntroScene.h">
+      <Filter>Scene\cIntroScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cButton.h">
+      <Filter>Ui\Button\cButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cManualButton.h">
+      <Filter>Ui\Button\cManualButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cRankingButton.h">
+      <Filter>Ui\Button\cRankingButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cStoryButton.h">
+      <Filter>Ui\Button\cStoryButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cDevloperButton.h">
+      <Filter>Ui\Button\cDevloperButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cExitButton.h">
+      <Filter>Ui\Button\cExitButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cStartButton.h">
+      <Filter>Ui\Button\cStartButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cScreen.h">
+      <Filter>Ui\Screen\cScreen</Filter>
+    </ClInclude>
+    <ClInclude Include="cXButton.h">
+      <Filter>Ui\Button\XButton</Filter>
+    </ClInclude>
+    <ClInclude Include="cInterfaceManager.h">
+      <Filter>Manager\cInterfaceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cCutScene.h">
+      <Filter>Scene\cCutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage01.h">
+      <Filter>Scene\cStage01</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>Object\Map\cMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cFirstMap.h">
+      <Filter>Object\Map\cFirstMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cFirstCloud.h">
+      <Filter>Object\Map\cFirstCloud</Filter>
+    </ClInclude>
+    <ClInclude Include="cSecondMap.h">
+      <Filter>Object\Map\cSecondMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cUi.h">
+      <Filter>Ui\GameUi\cUi</Filter>
+    </ClInclude>
+    <ClInclude Include="cInterfaceUi.h">
+      <Filter>Ui\GameUi\cInterfaceUi</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextManager.h">
+      <Filter>Manager\cTextManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cIngameMission.h">
+      <Filter>Ui\GameUi\cIngameMission</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameManager.h">
+      <Filter>Manager\cGameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayerShip.h">
+      <Filter>Object\Player\cPlayerShip</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet.h">
+      <Filter>Object\Bullet\cBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cCursor.h">
+      <Filter>Ui\GameUi\cCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="cShipMissile.h">
+      <Filter>Object\Bullet\cShipMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameStart.h">
+      <Filter>Ui\GameUi\cGameStart</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemy.h">
+      <Filter>Object\Enemy\cEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyAdmin.h">
+      <Filter>Object\Enemy\cEnemyAdmin</Filter>
+    </ClInclude>
+    <ClInclude Include="cExplosions.h">
+      <Filter>Object\cExplosions</Filter>
+    </ClInclude>
+    <ClInclude Include="cBulletLib.h">
+      <Filter>Object\Bullet\cBuleltLib</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyBullet.h">
+      <Filter>Object\Bullet\EnemyBullet\cEnemyBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cInputManager.h">
+      <Filter>Manager\cInputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyShip.h">
+      <Filter>Object\Enemy\Ship\cEnemyShip</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyShip1.h">
+      <Filter>Object\Enemy\Ship\cEnemyShip1</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyPlane01.h">
+      <Filter>Object\Enemy\AirPlane\cEnemyPlane01</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyPlane.h">
+      <Filter>Object\Enemy\AirPlane\cEnemyPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyPlane03.h">
+      <Filter>Object\Enemy\AirPlane\cEnemyPlane03</Filter>
+    </ClInclude>
+    <ClInclude Include="cStage01Middle.h">
+      <Filter>Object\Enemy\AirPlane\cStage01Middle</Filter>
+    </ClInclude>
+    <ClInclude Include="cSplitBullet.h">
+      <Filter>Object\Bullet\EnemyBullet\cSplitBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnemyShip2.h">
+      <Filter>Object\Enemy\Ship\cEnemyShip02</Filter>
+    </ClInclude>
+    <ClInclude Include="cYamato.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="DokDo02.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
